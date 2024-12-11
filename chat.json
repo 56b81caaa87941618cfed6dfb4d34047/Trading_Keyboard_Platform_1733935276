@@ -6,5 +6,15 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "8d526a6d-63cb-44cc-80a8-87afdeacfcf0",
+        "timestamp": "2024-12-11T22:29:57.155898Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Add this image to the component: ./src/assets/images/d1859a4351284593a8ef540d597b0159.jpeg",
+        "metadata": {
+            "component_id": "Footer1733935279"
+        }
     }
 ]
