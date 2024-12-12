@@ -35,4 +35,3 @@ const Footer: React.FC = () => {
 };
 
 export { Footer as component };
-export { Footer as component };
