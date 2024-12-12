@@ -57,5 +57,15 @@
         "source": "base_assistant",
         "content": "The image has been added to the center of the footer component. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "f9fd9fac-d672-4c1e-858f-ca61ea36cb8b",
+        "timestamp": "2024-12-12T11:06:37.877839Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Add this image to the component ./src/assets/images/72938403d82f437496ce1dc9d0f353a6.jpeg",
+        "metadata": {
+            "component_id": "Hero1733935279"
+        }
     }
 ]
