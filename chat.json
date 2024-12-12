@@ -133,5 +133,15 @@
             },
             "type": "function"
         }
+    },
+    {
+        "id": "ff6d3b4c-5709-44a1-aee7-e9a295361ba0",
+        "timestamp": "2024-12-12T21:09:51.101604Z",
+        "role": "tool_result",
+        "source": "ReadComponentCode",
+        "content": "import React from 'react';\n\nconst Hero: React.FC = () => {\n  \n  return (\n    <div className=\"bg-black py-16 text-white w-full h-full\">\n      <div className=\"container mx-auto px-4 flex flex-col md:flex-row items-center h-full\">\n        <div className=\"md:w-1/2 mb-8 md:mb-0\">\n          <h1 className=\"text-4xl font-bold mb-4\">Unlock Your Perfect Typing Experience</h1>\n          <p className=\"text-xl mb-6\">Buy, sell, and trade premium keyboards with enthusiasts worldwide. Find your dream keys or cash in on your collection.</p>\n        </div>\n        <div className=\"md:w-1/2 flex justify-center\">\n          <img src={`https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Trading_Keyboard_Platform_1733935276/${window.MI_PROJECT_GIT_REF || 'main'}/src/assets/images/72938403d82f437496ce1dc9d0f353a6.jpeg`} alt=\"Hero Image\" className=\"max-w-full h-auto\" />\n        </div>\n      </div>\n    </div>\n  );\n};\n\nexport { Hero as component }",
+        "metadata": {
+            "tool_call_id": "call_pTdUU7LxPc6W7vzdy610Y7tb"
+        }
     }
 ]
