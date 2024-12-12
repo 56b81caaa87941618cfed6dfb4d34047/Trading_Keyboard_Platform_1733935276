@@ -108,5 +108,15 @@
         "source": "base_assistant",
         "content": "The image has been added to the center of the hero component. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "33e887ae-2f78-45cd-8b32-9c2b091b28de",
+        "timestamp": "2024-12-12T21:09:49.230152Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "What does the text say",
+        "metadata": {
+            "component_id": "Hero1733935279"
+        }
     }
 ]
