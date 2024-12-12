@@ -100,5 +100,13 @@
         "metadata": {
             "tool_call_id": "call_JPDJkEUIOunxGwRCAbyleYNc"
         }
+    },
+    {
+        "id": "957c0de6-dd4a-4cdc-be02-667bc1a16d49",
+        "timestamp": "2024-12-12T11:06:50.492590Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The image has been added to the center of the hero component. What would you like to do next?",
+        "metadata": {}
     }
 ]
