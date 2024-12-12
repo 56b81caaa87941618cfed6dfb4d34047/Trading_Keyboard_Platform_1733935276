@@ -57,5 +57,56 @@
         "source": "base_assistant",
         "content": "The image has been added to the center of the footer component. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "f9fd9fac-d672-4c1e-858f-ca61ea36cb8b",
+        "timestamp": "2024-12-12T11:06:37.877839Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Add this image to the component ./src/assets/images/72938403d82f437496ce1dc9d0f353a6.jpeg",
+        "metadata": {
+            "component_id": "Hero1733935279"
+        }
+    },
+    {
+        "id": "e965cd06-f43a-42cd-9c5d-38a1803bf426",
+        "timestamp": "2024-12-12T11:06:40.477019Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_JPDJkEUIOunxGwRCAbyleYNc",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1733935279\",\"image_input\":\"72938403d82f437496ce1dc9d0f353a6.jpeg\",\"placement_instructions\":\"Add the image to the center of the hero section\",\"acknowledgement_message\":\"Adding the image to the hero component...\"}",
+                "name": "GenerateImageAndPlaceInComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "d20a50b0-3c7e-4299-bcb1-c72493e987dd",
+        "timestamp": "2024-12-12T11:06:40.500129Z",
+        "role": "assistant",
+        "source": "tool:GenerateImageAndPlaceInComponent",
+        "content": "Adding the image to the hero component...",
+        "metadata": {}
+    },
+    {
+        "id": "9de98b32-1fef-43a5-b9d1-7be7c875a3a1",
+        "timestamp": "2024-12-12T11:06:49.141732Z",
+        "role": "tool_result",
+        "source": "GenerateImageAndPlaceInComponent",
+        "content": "Success",
+        "metadata": {
+            "tool_call_id": "call_JPDJkEUIOunxGwRCAbyleYNc"
+        }
+    },
+    {
+        "id": "957c0de6-dd4a-4cdc-be02-667bc1a16d49",
+        "timestamp": "2024-12-12T11:06:50.492590Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The image has been added to the center of the hero component. What would you like to do next?",
+        "metadata": {}
     }
 ]
