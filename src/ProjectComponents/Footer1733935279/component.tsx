@@ -30,9 +30,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
     </footer>
-  </div>
   );
 };
 
-export { Footer as component };
 export { Footer as component };
