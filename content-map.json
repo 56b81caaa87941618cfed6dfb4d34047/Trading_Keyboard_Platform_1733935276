@@ -2,6 +2,7 @@
     "name": "example",
     "prefix": "%#PLACEHOLDER",
     "placeholderMappings": {
+        "Blank": [],
         "Header": [
             "APPLICATION_NAME"
         ],
@@ -12,12 +13,52 @@
         "Footer": [
             "APPLICATION_NAME",
             "FOOTER_TEXT"
+        ],
+        "Newsletter": [
+            "NEWSLETTER_HEADING_TEXT",
+            "NEWSLETTER_SUBHEADING_TEXT",
+            "NEWSLETTER_BUTTON_TEXT"
+        ],
+        "About": [
+            "ABOUT_MISSION_STATMENT",
+            "ABOUT_VISION_STATEMENT",
+            "ABOUT_VALUES_STATEMENT"
+        ],
+        "Contact": [
+            "CONTACT_HEADER_TEXT",
+            "CONTACT_SUBHEADER_TEXT"
+        ],
+        "FAQ": [
+            "FAQ_HEADER_TEXT",
+            "FAQ_SUBHEADER_TEXT",
+            "FAQ_QUESTION_01_TEXT",
+            "FAQ_ANSWER_01_TEXT",
+            "FAQ_QUESTION_02_TEXT",
+            "FAQ_ANSWER_02_TEXT",
+            "FAQ_QUESTION_03_TEXT",
+            "FAQ_ANSWER_03_TEXT"
         ]
     },
     "placeholders": {
         "APPLICATION_NAME": "KeySwap",
         "HERO_HEADING_TEXT": "Unlock Your Perfect Typing Experience",
         "HERO_SUBHEADING_TEXT": "Buy, sell, and trade premium keyboards with enthusiasts worldwide. Find your dream keys or cash in on your collection.",
-        "FOOTER_TEXT": "\u00a9 2023 KeySwap. Connecting keyboard enthusiasts one click at a time."
+        "FOOTER_TEXT": "\u00a9 2023 KeySwap. Connecting keyboard enthusiasts one click at a time.",
+        "NEWSLETTER_HEADING_TEXT": "Stay Ahead of the Market",
+        "NEWSLETTER_SUBHEADING_TEXT": "Subscribe to our newsletter for exclusive trading insights and keyboard shortcuts",
+        "NEWSLETTER_BUTTON_TEXT": "Subscribe Now",
+        "ABOUT_MISSION_STATMENT": "Our mission is to empower traders with lightning-fast execution through innovative keyboard-based trading solutions.",
+        "ABOUT_VISION_STATEMENT": "We envision a trading world where every keystroke translates to a strategic market move, maximizing efficiency and profits.",
+        "ABOUT_VALUES_STATEMENT": "Speed, Precision, Innovation, and User-Centric Design are the core values that drive our keyboard trading platform.",
+        "CONTACT_HEADER_TEXT": "Get in Touch",
+        "CONTACT_SUBHEADER_TEXT": "Have questions or need support? Our team is just a keystroke away.",
+        "FAQ_QUESTION_01_TEXT": "What makes keyboard trading faster than traditional methods?",
+        "FAQ_ANSWER_01_TEXT": "Keyboard trading eliminates the need for mouse clicks, allowing for rapid order placement and execution through customizable hotkeys and shortcuts.",
+        "FAQ_QUESTION_02_TEXT": "Is KeyStroke Trader suitable for beginners?",
+        "FAQ_ANSWER_02_TEXT": "Absolutely! While our platform offers advanced features for experienced traders, we provide comprehensive tutorials and practice modes for beginners to master keyboard trading.",
+        "FAQ_QUESTION_03_TEXT": "Can I customize the keyboard shortcuts?",
+        "FAQ_ANSWER_03_TEXT": "Yes, KeyStroke Trader offers full customization of keyboard shortcuts, allowing you to tailor the platform to your unique trading style and preferences.",
+        "FAQ_HEADER_TEXT": "Frequently Asked Questions",
+        "FAQ_SUBHEADER_TEXT": "Find quick answers to common questions about our keyboard trading platform"
     }
 }
